@@ -26,11 +26,14 @@
         <h2>Select the Image That Attracts You First</h2>
         <h3>Note: Your first visual choice reveals your hidden personality traits!</h3>
         
-        <asp:RadioButtonList ID="rbImageChoice" runat="server" RepeatDirection="Horizontal">
-            <asp:ListItem Text="<img src='https://via.placeholder.com/150/FF5733/FFFFFF?text=Sunset' />" Value="Sunset" />
-            <asp:ListItem Text="<img src='https://via.placeholder.com/150/4286f4/FFFFFF?text=Ocean' />" Value="Ocean" />
-            <asp:ListItem Text="<img src='https://via.placeholder.com/150/33ff77/000000?text=Forest' />" Value="Forest" />
-        </asp:RadioButtonList>
+<asp:RadioButtonList ID="rbImageChoice" runat="server" RepeatDirection="Horizontal">
+    <asp:ListItem Text="<img src='https://via.placeholder.com/150/FF5733/FFFFFF?text=Sunset' />" Value="Sunset" />
+    <asp:ListItem Text="<img src='https://via.placeholder.com/150/4286f4/FFFFFF?text=Ocean' />" Value="Ocean" />
+    <asp:ListItem Text="<img src='https://via.placeholder.com/150/33ff77/000000?text=Forest' />" Value="Forest" />
+    <asp:ListItem Text="<img src='https://via.placeholder.com/150/FFD700/000000?text=Mountain' />" Value="Mountain" />
+    <asp:ListItem Text="<img src='https://via.placeholder.com/150/800080/FFFFFF?text=Galaxy' />" Value="Galaxy" />
+</asp:RadioButtonList>
+
 
         <br /><br />
         <asp:Button ID="btnAnalyze" runat="server" Text="Analyze Personality" OnClick="btnAnalyze_Click" />
