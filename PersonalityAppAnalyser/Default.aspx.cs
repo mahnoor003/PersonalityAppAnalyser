@@ -30,6 +30,12 @@ namespace PersonalityAnalyzerApp
                 case "Forest":
                     lblResult.Text = "You are peaceful, grounded, and connected to nature.";
                     break;
+                case "Mountain":
+                    lblResult.Text = "You are strong, patient, and love peace.";
+                    break;
+                case "Galaxy":
+                    lblResult.Text = "You are imaginative and think beyond boundaries.";
+                    break;
                 default:
                     lblResult.Text = "Unknown selection.";
                     break;
