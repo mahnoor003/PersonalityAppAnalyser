@@ -25,6 +25,7 @@
     <form id="form1" runat="server" class="container">
         <h2>Select the Image That Attracts You First</h2>
         <h3>Note: Your first visual choice reveals your hidden personality traits!</h3>
+        
         <asp:RadioButtonList ID="rbImageChoice" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem Text="<img src='https://via.placeholder.com/150/FF5733/FFFFFF?text=Sunset' />" Value="Sunset" />
             <asp:ListItem Text="<img src='https://via.placeholder.com/150/4286f4/FFFFFF?text=Ocean' />" Value="Ocean" />
